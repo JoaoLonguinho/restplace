@@ -89,6 +89,7 @@ body{
     background-color: black;
     border-style: solid;
     border-color:  rgba(153, 0, 255, 0.719);
+    padding: 10px;
 }
 .mplayer1:hover{
   color: rgba(153, 0, 255, 0.719);
@@ -99,4 +100,5 @@ body{
   background-color: black;
   border-style: solid;
   border-color: rgba(153, 0, 255, 0.719);
+  padding: 10px;
 }

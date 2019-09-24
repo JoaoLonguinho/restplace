@@ -65,40 +65,48 @@ body{
       font-family: Arial, Helvetica, sans-serif;
       position: absolute;
       left: 45%;
-      top: 65%;
+      top: 63%;
       background-color: black;
       border-style: solid;
       border-color: orange;
+      height: 30px;
+      width: 40px;
+      text-align: center;
   }
   .mplayer1{
     color: orange;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     left: 50%;
-    top: 64%;
+    top: 63%;
     background-color: black;
     border-style: solid;
     border-color: orange;
+    height: 30px;
+    width: 40px;
+    text-align: center;
 }
 .mplayer:hover{
-    color: rgba(153, 0, 255, 0.719);
+    color: rgba(0, 153, 255, 0.767);
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     left: 45%;
     top: 65%;
     background-color: black;
     border-style: solid;
-    border-color:  rgba(153, 0, 255, 0.719);
-    padding: 10px;
+    border-color:  rgba(0, 153, 255, 0.767);
+    height: 30px;
+    width: 40px;
 }
 .mplayer1:hover{
-  color: rgba(153, 0, 255, 0.719);
+  color: rgba(0, 153, 255, 0.767);
   font-family: Arial, Helvetica, sans-serif;
   position: absolute;
   left: 50%;
-  top: 64%;
+  top: 65%;
   background-color: black;
   border-style: solid;
-  border-color: rgba(153, 0, 255, 0.719);
-  padding: 10px;
+  border-color: rgba(0, 153, 255, 0.767);
+  height: 30px;
+  width: 40px;
 }

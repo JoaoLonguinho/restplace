@@ -25,8 +25,8 @@
             <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     </div>
 
-    <button class="mplayer" onclick="playAudio();substituir();substituirPause()">&#9654;</button> 
-    <button class="mplayer1" onclick="pauseAudio();substituirt()">&#10074;&#10074;</button>
+    <button class="mplayer" onclick="playAudio();substituir();substituirPause();mname()">&#9654;</button> 
+    <button class="mplayer1" onclick="pauseAudio();substituirt();stp()">&#10074;&#10074;</button>
 
       <script>
         function substituir(){
@@ -43,6 +43,11 @@
           var subsPausefrase = document.getElementById('titlePage').innerHTML;
           var subsPause = subsPausefrase.replace('Music paused...','The music is playing...');
           document.getElementById('titlePage').innerHTML = subsPause;
+        }
+        function stp(){
+          var subsTitulo = document.getElementById('titlePage').innerHTML;
+          var subsTituloPause = subsTitulo.replace("Turn your vibe down, it's time to play...", "Music paused...")
+          document.getElementById('titlePage').innerHTML = subsTituloPause;
         }
       </script>
       <script>

@@ -8,7 +8,7 @@
         </audio>
     </head>
     <body>
-    <h3 class='siteTitle'>Turn your vibe down, it's time to play...</h3>
+    <h3 id="titlePage" class='siteTitle'>Turn your vibe down, it's time to play...</h3>
     
     <img src=''>
 
@@ -25,10 +25,22 @@
             <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     </div>
 
-    <button class="mplayer" onclick="playAudio()">&#9654;</button> 
-    <button class="mplayer1" onclick="pauseAudio()">&#10074;&#10074;</button>
+    <button class="mplayer" onclick="playAudio();substituir()">&#9654;</button> 
+    <button class="mplayer1" onclick="pauseAudio();substituirt()">&#10074;&#10074;</button>
 
-          <script>
+      <script>
+        function substituir(){
+          var tituloPage = document.getElementById('titlePage').innerHTML;
+          var substituicaoT = tituloPage.replace("Turn your vibe down, it's time to play...",'The music is out...');
+          document.getElementById('titlePage').innerHTML = substituicaoT;
+        }
+        function substituirt(){
+          var tituloPagevoltar = document.getElementById('titlePage').innerHTML;
+          var substituicaoTi = tituloPagevoltar.replace('The music is out...','Music paused...')
+          document.getElementById("titlePage").innerHTML = substituicaoTi;
+        }
+      </script>
+      <script>
           function openNav() {
             document.getElementById("mySidenav").style.width = "250px";
             document.getElementById("main").style.marginLeft = "250px";
@@ -51,6 +63,6 @@
             function pauseAudio() { 
               x.pause(); 
             } 
-            </script>
+      </script>
     </body>
 </html>

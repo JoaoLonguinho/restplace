@@ -42,7 +42,7 @@
             <h4 class='rGameDLOL'  id='LOLGame'> </h4> 
     
                 <a href='https://br.leagueoflegends.com/pt/' target='_blank'> 
-            <img onmouseover="showDescriptionLOL();imgOpacityOn()" onmouseout="unShowDescriptionLOL();imgOpacityOff()" src='lol.jpg' alt='League of Legends' width="300px" class='iGame2' id='lolimg'> 
+            <img onmouseover="showDescriptionLOL();imgOpacityOn()" onmouseout=";imgOpacityOff()" src='lol.jpg' alt='League of Legends' width="300px" class='iGame2' id='lolimg'> 
         </a>
     </div> <!--League of Legends Code-->
 
@@ -64,25 +64,15 @@
         }
     </script>
     <script>
-    function showDescriptionEG(){
-        descGameIn = document.getElementById('EGGame').innerHTML = 'Enter the Gungeon is a bullet' + 
+    descGameIn = document.getElementById('EGGame').innerHTML = 'Enter the Gungeon is a bullet' + 
         'hell<br> roguelike video game developed by <br>Dodge Roll and published by Devolver<br> Digital.' + 
         ' It follows four adventurers as <br> they descend into the Gungeon  to find <br> a gun to kill their past.'+
         ' The game was <br> released worldwide for Microsoft <br>Windows, OS X<br>, Linux, and PlayStation 4<br> on April 5, 2016,'+
         ' on Xbox <br>One on April 5, 2017, as <br>well as on Nintendo Switch <br>on December 14, 2017.';
-    }
-    function unShowDescriptionEG(){
-        descGameOut = document.getElementById('EGGame').innerHTML = '';
-    }
-    function showDescriptionLOL(){
-        descGameIn = document.getElementById('LOLGame').innerHTML = 'League of Legends is a fast-paced,<br> competitive online game ' + 
+    descGameIn = document.getElementById('LOLGame').innerHTML = 'League of Legends is a fast-paced,<br> competitive online game ' + 
         'that blends <br>the speed and intensity of an RTS with <br>RPG elements. Two teams of powerful <br>champions,'+
         ' each with a unique design' +
         '<br>and playstyle, battle head-to-head <br>across multiple battlefields and game<br> modes.';
-    }
-    function unShowDescriptionLOL(){
-        descGameOut = document.getElementById('LOLGame').innerHTML = '';
-    }
     function imgOpacityOn(){
         imgtoop = document.getElementById('lolimg').style.opacity = "0.5";
     }

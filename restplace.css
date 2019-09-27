@@ -113,8 +113,8 @@ body{
 /* Codigo Enter the Gungeon - Inicio*/
 .contGame1{
   border-style: double;
-  border-color: black;
-  border-radius: 0px;
+  border-color: orangered;
+  border-radius: 5px;
   height: 485px;
   width: 300px;
   margin-left:145px;
@@ -123,7 +123,7 @@ body{
 .contGame1:hover{
   border-style: double;
   border-color: orangered;
-  border-radius: 0px;
+  border-radius: 10px;
   height: 485px;
   width: 300px;
   margin-left:145px;
@@ -166,8 +166,9 @@ body{
 /* Codigo League of Legends - Inicio*/
 .contGame2{
   border-style: solid;
-  border-radius: 0px;
-  height: 485px;
+  border-radius: 10px;
+  border-color: orangered;
+  height: 400px;
   width: 300px;
   margin-left:455px;
   margin-top: -489px;
@@ -175,8 +176,8 @@ body{
 .contGame2:hover{
   border-style: double;
   border-color: orangered;
-  border-radius: 0px;
-  height: 485px;
+  border-radius: 10px;
+  height: 400px;
   width: 300px;
   margin-left:455px;
   margin-top: -489px;
@@ -214,3 +215,4 @@ body{
   /*-webkit-text-stroke-width: 1px;  
   -webkit-text-stroke-color:orange;  */
 }
+/* Codigo League of Legends - Final*/

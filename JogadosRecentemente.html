@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="restplace.css">
+        <script src="functions.js"></script>
+        <title>The Gamer Place</title>
+        <audio id="myAudio">
+            <source src="song.mp3" type="audio/mpeg">
+        </audio>
+    </head>
+    <body>
+
+    <h1 class='siteTitle'>Recently played 🎮</h1>
+    
+    
+    <div id="mySidenav" class="sidenav"> <!-- Conteúdo menu lateral -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <br />
+            <a href="#">Jogados recentemente</a>
+            <a href="#">Fotos</a>
+            <a href="#">Playlist</a>
+            <a href="#">Seu cantinho...</a>
+    </div>
+          
+    
+
+    <div id="main" class='menu'>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> <!-- Botão menu lateral -->
+    </div>
+
+    <div class='contGame1'> 
+    <h4 class='rGame1'> Enter the Gungeon </h4>
+    <h4 class='rGameD'  id='EGGame'> </h4>
+    
+    <a href='https://dodgeroll.com/gungeon/' target='_blank'> 
+    <img onmouseover="showDescription()" onmouseout="unShowDescription()" src='EG.jpg' alt='Enter The Gungeon' width="300px" class='iGame1'> 
+    </a>
+    </div>
+    
+    <script>
+        function openNav() {
+            //Script para funcionamento de menu lateral (Abrir)
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+        
+        function closeNav() {
+        //Script para funcionamento de menu lateral (Fechar)
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "white";
+        }
+    </script>
+    <script>
+    function showDescription(){
+        descGameIn = document.getElementById('EGGame').innerHTML = 'Enter the Gungeon is a bullet' + 
+        'hell<br> roguelike video game developed by <br>Dodge Roll and published by Devolver<br> Digital.' + 
+        ' It follows four adventurers as <br> they descend into the Gungeon  to find <br> a gun to kill their past.'+
+        ' The game was <br> released worldwide for Microsoft <br>Windows, OS X<br>, Linux, and PlayStation 4<br> on April 5, 2016,'+
+        ' on Xbox <br>One on April 5, 2017, as <br>well as on Nintendo Switch <br>on December 14, 2017.';
+    }
+    function unShowDescription(){
+        descGameOut = document.getElementById('EGGame').innerHTML = '';
+    }
+    </script>
+    </body>
+</html>

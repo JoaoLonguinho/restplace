@@ -1,33 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="restplace.css">
-        <script src="functions.js"></script>
-        <title>The Gamer Place</title>
-        <audio id="myAudio">
-            <source src="song.mp3" type="audio/mpeg">
-        </audio>
-    </head>
-    <body>
-    <h3 id="titlePage" class='siteTitle'>Turn your vibe down, it's time to play...</h3> <!--Titulo da pagina-->
-
-    <div id="mySidenav" class="sidenav"> <!-- Conteúdo menu lateral -->
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <br />
-            <a href="JogadosRecentemente.html">Jogados recentemente</a>
-            <a href="#">Fotos</a>
-            <a href="#">Playlist</a>
-            <a href="#">Seu cantinho...</a>
-    </div>
-          
-    <div id="main" class='menu'>
-            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> <!-- Botão menu lateral -->
-    </div>
-
-    <button class="mplayer" onclick="playAudio();substituir();substituirPause();mname()">&#9654;</button> <!-- Botão iniciar música -->
-    <button class="mplayer1" onclick="pauseAudio();substituirt();stp()">&#10074;&#10074;</button> <!-- Botão pausar música -->
-
-    <script>
         function substituir(){
           // Altera conteúdo do titulo da pagina ao clicar em play
           var tituloPage = document.getElementById('titlePage').innerHTML;
@@ -74,7 +44,3 @@
         function pauseAudio() { 
             x.pause(); 
         } 
-    </script>
-
-    </body>
-</html>

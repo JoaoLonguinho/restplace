@@ -110,3 +110,41 @@ body{
   height: 30px;
   width: 40px;
 }
+.rGame1{
+  color: rgb(255, 115, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 195px;
+  position: fixed;
+  top: 15%;
+}
+.iGame1{
+  position: fixed;
+  margin-left: 120px;
+  top: 25%;
+}
+.iGame1:hover{
+  cursor: pointer;
+}
+/*.contGame1:hover{
+  background-color: rgb(168, 168, 168);
+  border-style: double;
+  border-color: black;
+  width: 200px;
+  height: 500px; 
+  position: fixed;
+  top: 15%;
+  margin-left: 50px;
+}*/
+.rGameD{
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 120px;
+  position: fixed;
+  top: 50%;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+}

@@ -112,13 +112,14 @@ body{
 }
 /* Codigo Enter the Gungeon - Inicio*/
 .contGame1{
-  border-style: double;
+  border-style: outset;
   border-color: orangered;
-  border-radius: 5px;
+  border-radius: 10px;
   height: 485px;
   width: 300px;
   margin-left:145px;
-  margin-top: -70px;
+  top: 15%;
+  position: fixed;
 }
 .contGame1:hover{
   border-style: double;
@@ -127,7 +128,8 @@ body{
   height: 485px;
   width: 300px;
   margin-left:145px;
-  margin-top: -70px;
+  top: 15%;
+  position: fixed;
 }
 .rGame1{
   color: rgb(255, 115, 0);
@@ -165,13 +167,14 @@ body{
 /* Codigo Enter the Gungeon - Final*/
 /* Codigo League of Legends - Inicio*/
 .contGame2{
-  border-style: solid;
+  border-style: outset;
   border-radius: 10px;
   border-color: orangered;
   height: 400px;
   width: 300px;
   margin-left:455px;
-  margin-top: -489px;
+  top: 15%;
+  position: fixed;
 }
 .contGame2:hover{
   border-style: double;
@@ -180,7 +183,8 @@ body{
   height: 400px;
   width: 300px;
   margin-left:455px;
-  margin-top: -489px;
+  position: fixed;
+  top: 15%;
 }
 .rGame2{
   color: rgb(255, 115, 0);
@@ -216,3 +220,56 @@ body{
   -webkit-text-stroke-color:orange;  */
 }
 /* Codigo League of Legends - Final*/
+/* Codigo Dark Souls III - Final*/
+.contGame3{
+  border-style: outset;
+  border-radius: 10px;
+  border-color: orangered;
+  height: 435px;
+  width: 300px;
+  margin-left:765px;
+  top: 15%;
+  position: fixed;
+}
+.contGame3:hover{
+  border-style: double;
+  border-color: orangered;
+  border-radius: 10px;
+  height: 435px;
+  width: 300px;
+  margin-left:765px;
+  top: 15%;
+  position: fixed;
+}
+.rGame3{
+  color: rgb(255, 115, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+  position: fixed;
+  top: 15%;
+}
+.iGame3{
+  position: fixed;
+  margin-left: 0px;
+  top: 25%;
+}
+.iGame3:hover{
+  cursor: pointer;
+}
+.rGameDDS{
+  background-color: black;
+  color: orange;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 2px;
+  position: fixed;
+  top: 50%;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  border-radius: 2px; 
+  border-style: double;
+  border-color: orange;
+  /*-webkit-text-stroke-width: 1px;  
+  -webkit-text-stroke-color:orange;  */

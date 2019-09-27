@@ -46,7 +46,14 @@
         </a>
     </div> <!--League of Legends Code-->
 
-
+    <div class='contGame3'> 
+            <h4 class='rGame3'> Dark Souls III </h4>
+                <h4 class='rGameDDS'  id='DSGame'> </h4> 
+        
+                    <a href='https://www.fromsoftware.jp/ww/products.html' target='_blank'> 
+                <img onmouseover="showDescriptionLOL();imgOpacityOn()" onmouseout=";imgOpacityOff()" src='DSIII.jpg' alt='League of Legends' width="300px" class='iGame3' id='DSimg'> 
+            </a>
+        </div> <!--Dark Souls Code-->
     
     <script>
         function openNav() {
@@ -73,6 +80,9 @@
         'that blends <br>the speed and intensity of an RTS with <br>RPG elements. Two teams of powerful <br>champions,'+
         ' each with a unique design' +
         '<br>and playstyle, battle head-to-head <br>across multiple battlefields and game<br> modes.';
+    descGameIn = document.getElementById('DSGame').innerHTML = 'Dark Souls III is an action role-playing<br> video game developed by<br>'+
+    'FromSoftware and published by <br>Bandai Namco Entertainment for <br>PlayStation 4, Xbox One, and <br>Microsoft Windows. ... <br>Dark Souls III'+
+    ' was critically <br>and commercially successful, with <br>critics calling it a worthy and fitting<br> conclusion to the series.'
     function imgOpacityOn(){
         imgtoop = document.getElementById('lolimg').style.opacity = "0.5";
     }

@@ -32,7 +32,7 @@
         <h4 class='rGame1'> Enter the Gungeon </h4>
             <h4 class='rGameD'  id='EGGame'> </h4> 
                 <a href='https://dodgeroll.com/gungeon/' target='_blank'> 
-            <img onmouseover="showDescriptionEG()" onmouseout="unShowDescriptionEG()" src='EG.jpg' alt='Enter The Gungeon' width="300px" class='iGame1'> 
+            <img onmouseover="showDescriptionEG();imgOpacityOnEG()" onmouseout="unShowDescriptionEG();imgOpacityOffEG()" src='EG.jpg' alt='Enter The Gungeon' width="300px" class='iGame1' id='egimage'> 
         </a>
     </div> <!--Enter the Gungeon Code-->
 
@@ -42,7 +42,7 @@
             <h4 class='rGameDLOL'  id='LOLGame'> </h4> 
     
                 <a href='https://br.leagueoflegends.com/pt/' target='_blank'> 
-            <img onmouseover="showDescriptionLOL()" onmouseout="unShowDescriptionLOL()" src='lol.jpg' alt='League of Legends' width="300px" class='iGame2 '> 
+            <img onmouseover="showDescriptionLOL();imgOpacityOn()" onmouseout="unShowDescriptionLOL();imgOpacityOff()" src='lol.jpg' alt='League of Legends' width="300px" class='iGame2' id='lolimg'> 
         </a>
     </div> <!--League of Legends Code-->
 
@@ -74,17 +74,27 @@
     function unShowDescriptionEG(){
         descGameOut = document.getElementById('EGGame').innerHTML = '';
     }
+    function showDescriptionLOL(){
+        descGameIn = document.getElementById('LOLGame').innerHTML = 'League of Legends is a fast-paced,<br> competitive online game ' + 
+        'that blends <br>the speed and intensity of an RTS with <br>RPG elements. Two teams of powerful <br>champions,'+
+        ' each with a unique design' +
+        '<br>and playstyle, battle head-to-head <br>across multiple battlefields and game<br> modes.';
+    }
+    function unShowDescriptionLOL(){
+        descGameOut = document.getElementById('LOLGame').innerHTML = '';
+    }
+    function imgOpacityOn(){
+        imgtoop = document.getElementById('lolimg').style.opacity = "0.5";
+    }
+    function imgOpacityOff(){
+        imgoffop = document.getElementById('lolimg').style.opacity = "1";
+    }
+    function imgOpacityOnEG(){
+        imgtoop = document.getElementById('egimage').style.opacity = "0.5";
+    }
+    function imgOpacityOffEG(){
+        imgoffop = document.getElementById('egimage').style.opacity = "1";
+    }
     </script>
-    <script>
-            function showDescriptionLOL(){
-                descGameIn = document.getElementById('LOLGame').innerHTML = 'League of Legends is a fast-paced,<br> competitive online game ' + 
-                'that blends <br>the speed and intensity of an RTS with <br>RPG elements. Two teams of powerful <br>champions,'+
-                ' each with a unique design' +
-                '<br>and playstyle, battle head-to-head <br>across multiple battlefields and game<br> modes.';
-            }
-            function unShowDescriptionLOL(){
-                descGameOut = document.getElementById('LOLGame').innerHTML = '';
-            }
-            </script>
     </body>
 </html>

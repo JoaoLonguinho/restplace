@@ -111,16 +111,34 @@ body{
   width: 40px;
 }
 /* Codigo Enter the Gungeon - Inicio*/
+.contGame1{
+  border-style: double;
+  border-color: black;
+  border-radius: 0px;
+  height: 485px;
+  width: 300px;
+  margin-left:145px;
+  margin-top: -70px;
+}
+.contGame1:hover{
+  border-style: double;
+  border-color: orangered;
+  border-radius: 0px;
+  height: 485px;
+  width: 300px;
+  margin-left:145px;
+  margin-top: -70px;
+}
 .rGame1{
   color: rgb(255, 115, 0);
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 195px;
+  margin-left: 75px;
   position: fixed;
   top: 15%;
 }
 .iGame1{
   position: fixed;
-  margin-left: 120px;
+  margin-left: 0px;
   top: 25%;
 }
 .iGame1:hover{
@@ -130,7 +148,7 @@ body{
   background-color: black;
   color: orange;
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 120px;
+  margin-left: 0px;
   position: fixed;
   top: 50%;
   padding-left: 10px;
@@ -145,16 +163,34 @@ body{
   -webkit-text-stroke-color:orange;  */
 }
 /* Codigo Enter the Gungeon - Final*/
+/* Codigo League of Legends - Inicio*/
+.contGame2{
+  border-style: solid;
+  border-radius: 0px;
+  height: 485px;
+  width: 300px;
+  margin-left:455px;
+  margin-top: -489px;
+}
+.contGame2:hover{
+  border-style: double;
+  border-color: orangered;
+  border-radius: 0px;
+  height: 485px;
+  width: 300px;
+  margin-left:455px;
+  margin-top: -489px;
+}
 .rGame2{
   color: rgb(255, 115, 0);
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 595px;
+  margin-left: 75px;
   position: fixed;
   top: 15%;
 }
 .iGame2{
   position: fixed;
-  margin-left: 520px;
+  margin-left: 0px;
   top: 25%;
 }
 .iGame2:hover{
@@ -164,7 +200,7 @@ body{
   background-color: black;
   color: orange;
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 520px;
+  margin-left: 0px;
   position: fixed;
   top: 50%;
   padding-left: 10px;

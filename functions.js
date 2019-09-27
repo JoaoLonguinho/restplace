@@ -1,46 +1,12 @@
-        function substituir(){
-          // Altera conteúdo do titulo da pagina ao clicar em play
-          var tituloPage = document.getElementById('titlePage').innerHTML;
-          var substituicaoT = tituloPage.replace("Turn your vibe down, it's time to play...",'The music is playing...');
-          document.getElementById('titlePage').innerHTML = substituicaoT;
-        }
-        function substituirt(){
-          // Altera conteúdo do titulo após ser alterado pelo botão play da pagina 
-          var tituloPagevoltar = document.getElementById('titlePage').innerHTML;
-          var substituicaoTi = tituloPagevoltar.replace('The music is playing...','Music paused...')
-          document.getElementById("titlePage").innerHTML = substituicaoTi;
-        }
-        function substituirPause(){
-          // Altera conteúdo do titulo após ser alterado pelo botão pause da pagina
-          var subsPausefrase = document.getElementById('titlePage').innerHTML;
-          var subsPause = subsPausefrase.replace('Music paused...','The music is playing...');
-          document.getElementById('titlePage').innerHTML = subsPause;
-        }
-        function stp(){
-          // Altera conteúdo do titulo da pagina ao clicar em pause
-          var subsTitulo = document.getElementById('titlePage').innerHTML;
-          var subsTituloPause = subsTitulo.replace("Turn your vibe down, it's time to play...", "Music paused...")
-          document.getElementById('titlePage').innerHTML = subsTituloPause;
-        }
-          function openNav() {
-            //Script para funcionamento de menu lateral (Abrir)
-            document.getElementById("mySidenav").style.width = "250px";
-            document.getElementById("main").style.marginLeft = "250px";
-            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-        }
-        
-        function closeNav() {
-        //Script para funcionamento de menu lateral (Fechar)
-        document.getElementById("mySidenav").style.width = "0";
-        document.getElementById("main").style.marginLeft= "0";
-        document.body.style.backgroundColor = "white";
-        }
-        var x = document.getElementById("myAudio"); 
-        //Script para iniciar música
-        function playAudio() { 
-            x.play(); 
-        } 
-        //Script para pausar música
-        function pauseAudio() { 
-            x.pause(); 
-        } 
+<script>
+    function showDescription(){
+        descGameIn = document.getElementById('EGGame').innerHTML = 'Enter the Gungeon is a bullet' + 
+        'hell<br> roguelike video game developed by <br>Dodge Roll and published by Devolver<br> Digital.' + 
+        ' It follows four adventurers as <br> they descend into the Gungeon  to find <br> a gun to kill their past.'+
+        ' The game was <br> released worldwide for Microsoft <br>Windows, OS X<br>, Linux, and PlayStation 4<br> on April 5, 2016,'+
+        ' on Xbox <br>One on April 5, 2017, as <br>well as on Nintendo Switch <br>on December 14, 2017.';
+    }
+    function unShowDescription(){
+        descGameOut = document.getElementById('EGGame').innerHTML = '';
+    }
+    </script>

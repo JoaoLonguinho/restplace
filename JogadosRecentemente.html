@@ -29,13 +29,24 @@
     </div>
 
     <div class='contGame1'> 
-    <h4 class='rGame1'> Enter the Gungeon </h4>
-    <h4 class='rGameD'  id='EGGame'> </h4>
+        <h4 class='rGame1'> Enter the Gungeon </h4>
+            <h4 class='rGameD'  id='EGGame'> </h4> 
+                <a href='https://dodgeroll.com/gungeon/' target='_blank'> 
+            <img onmouseover="showDescriptionEG()" onmouseout="unShowDescriptionEG()" src='EG.jpg' alt='Enter The Gungeon' width="300px" class='iGame1'> 
+        </a>
+    </div> <!--Enter the Gungeon Code-->
+
+
+    <div class='contGame2'> 
+        <h4 class='rGame2'> League of Legends </h4>
+            <h4 class='rGameDLOL'  id='LOLGame'> </h4> 
     
-    <a href='https://dodgeroll.com/gungeon/' target='_blank'> 
-    <img onmouseover="showDescription()" onmouseout="unShowDescription()" src='EG.jpg' alt='Enter The Gungeon' width="300px" class='iGame1'> 
-    </a>
-    </div>
+                <a href='https://br.leagueoflegends.com/pt/' target='_blank'> 
+            <img onmouseover="showDescriptionLOL()" onmouseout="unShowDescriptionLOL()" src='lol.jpg' alt='League of Legends' width="300px" class='iGame2 '> 
+        </a>
+    </div> <!--League of Legends Code-->
+
+
     
     <script>
         function openNav() {
@@ -53,16 +64,27 @@
         }
     </script>
     <script>
-    function showDescription(){
+    function showDescriptionEG(){
         descGameIn = document.getElementById('EGGame').innerHTML = 'Enter the Gungeon is a bullet' + 
         'hell<br> roguelike video game developed by <br>Dodge Roll and published by Devolver<br> Digital.' + 
         ' It follows four adventurers as <br> they descend into the Gungeon  to find <br> a gun to kill their past.'+
         ' The game was <br> released worldwide for Microsoft <br>Windows, OS X<br>, Linux, and PlayStation 4<br> on April 5, 2016,'+
         ' on Xbox <br>One on April 5, 2017, as <br>well as on Nintendo Switch <br>on December 14, 2017.';
     }
-    function unShowDescription(){
+    function unShowDescriptionEG(){
         descGameOut = document.getElementById('EGGame').innerHTML = '';
     }
     </script>
+    <script>
+            function showDescriptionLOL(){
+                descGameIn = document.getElementById('LOLGame').innerHTML = 'League of Legends is a fast-paced,<br> competitive online game ' + 
+                'that blends <br>the speed and intensity of an RTS with <br>RPG elements. Two teams of powerful <br>champions,'+
+                ' each with a unique design' +
+                '<br>and playstyle, battle head-to-head <br>across multiple battlefields and game<br> modes.';
+            }
+            function unShowDescriptionLOL(){
+                descGameOut = document.getElementById('LOLGame').innerHTML = '';
+            }
+            </script>
     </body>
 </html>

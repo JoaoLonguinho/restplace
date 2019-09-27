@@ -110,6 +110,7 @@ body{
   height: 30px;
   width: 40px;
 }
+/* Codigo Enter the Gungeon - Inicio*/
 .rGame1{
   color: rgb(255, 115, 0);
   font-family: Arial, Helvetica, sans-serif;
@@ -125,19 +126,9 @@ body{
 .iGame1:hover{
   cursor: pointer;
 }
-/*.contGame1:hover{
-  background-color: rgb(168, 168, 168);
-  border-style: double;
-  border-color: black;
-  width: 200px;
-  height: 500px; 
-  position: fixed;
-  top: 15%;
-  margin-left: 50px;
-}*/
 .rGameD{
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: orange;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 120px;
   position: fixed;
@@ -147,4 +138,43 @@ body{
   padding-right: 10px;
   padding-bottom: 10px;
   font-size: 15px;
+  border-radius: 2px; 
+  border-style: double;
+  border-color: orange;
+  /*-webkit-text-stroke-width: 1px;  
+  -webkit-text-stroke-color:orange;  */
+}
+/* Codigo Enter the Gungeon - Final*/
+.rGame2{
+  color: rgb(255, 115, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 595px;
+  position: fixed;
+  top: 15%;
+}
+.iGame2{
+  position: fixed;
+  margin-left: 520px;
+  top: 25%;
+}
+.iGame2:hover{
+  cursor: pointer;
+}
+.rGameDLOL{
+  background-color: black;
+  color: orange;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 520px;
+  position: fixed;
+  top: 50%;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  border-radius: 2px; 
+  border-style: double;
+  border-color: orange;
+  /*-webkit-text-stroke-width: 1px;  
+  -webkit-text-stroke-color:orange;  */
 }
